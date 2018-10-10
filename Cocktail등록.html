@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cocktail등록 Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+table{
+    border-collapse: collapse;
+    font-size:12px;
+}
+
+tr{
+    border: 1px solid black;
+}
+
+td{
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+</style>
+</head>
+
+<body>
+
+<!--LOGIN & Go to main 버튼-->
+<div style="position:absolute;left:1270px;top:20px">
+<a href="file:///C:/Users/user/Desktop/Cocktail%20Project/%EB%A1%9C%EA%B7%B8%EC%9D%B8%20%ED%99%94%EB%A9%B4.html">Login</a>
+</div>
+<div style="position:absolute;left:1370px;top:20px">
+<img src="logo.png" width = 15px height=15px>
+<a href="file:///C:/Users/user/Desktop/Cocktail%20Project/main.html" title="main으로 가려면 클릭하세요">Go to main</a>
+</div>
+
+<!--Cocktail 등록-->
+<div style="position:absolute;left:410px;top:65px;width:220px;height:250px">
+   <table style="width:100%;height:100%;border:1px solid">
+     <tr>
+       <td><h3>Cocktail 사진</h3></td>
+     </tr>
+   </table>
+</div>
+
+<div style="position:absolute;left:410px;top:321px">
+<input type="button" onClick="location.href='file:///C:/Users/user/Desktop/Cocktail%20Project/Q&A.html'" value="가져오기" style="padding:5px 81px">
+</div>
+
+<div style="position:absolute;left:650px;top:40px;width:200px">
+<h4>Cocktail 이름</h4>
+</div>
+
+<div style="position:absolute;left:650px;top:90px">
+<input name="cocktailname" type="text" placeholder="cocktail 이름">
+</div>
+
+<div style="position:absolute;left:650px;top:104px;width:200px">
+<h4>Cocktail 레시피</h4>
+</div>
+
+<div style="position:absolute;left:650px;top:155px">
+<textarea name="cocktailrecipe" style="width:510px;height:200px" placeholder="Cocktail 재료 및 비율을 적어주세요."></textarea>
+</div>
+
+<div style="position:absolute;left:410px;top:350px;width:200px">
+<h4>Cocktail 설명:</h4>
+</div>
+
+<div style="position:absolute;left:410px;top:405px">
+<textarea name="cocktailexplanation" style="width:750px;height:250px" placeholder="Cocktail 설명"></textarea>
+<br><br>
+</div>
+
+<div style="position:absolute;left:940px;top:680px">
+<input type="button" onClick="location.href='file:///C:/Users/user/Desktop/Cocktail%20Project/Q&A.html'" value="등록하기" style="padding:5px 81px">
+</div>
+
+</body>
+</html>
